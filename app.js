@@ -1,7 +1,7 @@
 const https = require('https');
 
-const client_id = 'a4ef090bc66b496189efaf77a9cd0a18';
-const client_secret = '7c623cda354f465888502a111aa7fb55';
+const client_id = '';
+const client_secret = '';
 const track_id = 'Ella';
 
 async function getAccessToken() {

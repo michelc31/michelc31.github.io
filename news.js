@@ -1,4 +1,4 @@
-fetch('https://newsapi.org/v2/top-headlines?country=mx&apiKey=df9a2f92e9fa48deaf2df3c9b4576718')
+fetch('https://newsapi.org/v2/top-headlines?country=mx&apiKey=')
     .then(response => response.json())
     .then(data => {
         const newsList = document.getElementById('newsList');

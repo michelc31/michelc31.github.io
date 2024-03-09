@@ -5,7 +5,7 @@ function obtenerRespuesta() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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'
+            'Authorization': 'Bearer '
         },
         body: JSON.stringify({
             model: 'gpt-3.5-turbo',
